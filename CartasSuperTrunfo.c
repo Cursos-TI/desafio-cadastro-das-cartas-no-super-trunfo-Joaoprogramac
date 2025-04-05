@@ -45,6 +45,43 @@
 
     printf("digite o codigo da carta\n");
     scanf("%s,&codigo da carta");
+
+    printf("A01");
+      int população1 = 902;
+      float Pontos_turísticos1 = 25.2;
+      double PIB1 = 235.456;
+      float Area1 = 9.213;
+      
+      printf ("A02");
+      int polulação2 = 156.973;
+      float Pontos_turísticos2 = 20;
+      float PIB2 =  12.716;
+      float Area2  = 15.330;
+
+
+      if (população1 > polulação2){
+        printf("carta A01 é a vencedora\n");
+      }
+      else{
+       printf( "carta A02 é a vencedora\n");
+      }
+     
+      if(Pontos_turísticos1 > Pontos_turísticos2){
+        printf("carta A01 é a vencedora\n");
+    }
+     else{("carta A02 é a vencedora \n");
+
+     }
+
+    if(PIB1>PIB2){
+      printf ("carta A01 é a vencedora\n"); 
+    }      
+    else ("carta A02 é a vencedora \n"); 
+    
+    if(Area1>Area2){
+        printf ("carta A01 é a vencedora\n"); 
+    }
+    else ("carta A02 é a vencedora \n"
     
     return 0;
 
